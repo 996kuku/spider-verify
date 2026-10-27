@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 真实日志与数据，绝不入库
+*.log
+!examples/sample.log
+*.log.gz
+data/
+*.db
+*.sqlite
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
